@@ -1,8 +1,6 @@
-// package square
-package main
+package square
 
 import (
-	"fmt"
 	"math"
 )
 
@@ -34,12 +32,4 @@ func CalcSquare(sideLen float64, sidesNum sidesNum) (square float64) {
 		square = math.Pi * squaring
 	}
 	return square
-}
-
-func main() {
-	fmt.Println(CalcSquare(10.0, SidesTriangle))
-	fmt.Println(CalcSquare(10.0, SidesSquare))
-	fmt.Println(CalcSquare(10.0, SidesCircle))
-	fmt.Println(CalcSquare(5, SidesCircle))
-	fmt.Println(CalcSquare(5, 8))
 }
