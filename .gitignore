@@ -1,3 +1,6 @@
+# _test.go files
+*_test.go
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
